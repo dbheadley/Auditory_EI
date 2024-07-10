@@ -1,0 +1,23 @@
+name: mimo_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - scipy
+  - numpy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - pywavelets
+  - tqdm
+  - xarray
+  - pip:
+    - notebook
+    - pynapple
+    - pyabf
+    - twine
+    - dclut
