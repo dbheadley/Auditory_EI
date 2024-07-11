@@ -1,4 +1,4 @@
-name: mimo_env
+name: hdac_ei
 channels:
   - conda-forge
   - defaults
